@@ -1,0 +1,19 @@
+title: The Father Sent the Son
+description: An afternoon of classical sacred and Christmas music by Richard Joseph Barber
+name: Barber Music Company
+email: barbermusiccompany@gmail.com
+baseurl: ""
+url: http://barbermusic.events
+google_analytics: UA-128167004-2
+collections:
+  - sections
+
+# Build settings
+markdown: kramdown
+sass:
+  style: :expanded
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock

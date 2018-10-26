@@ -1,0 +1,56 @@
+.hero {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: url(/assets/images/richard-barber.jpg) center center no-repeat;
+	background-size: cover;
+	text-align: center;
+
+	&:after {
+		position: absolute;
+		display: block;
+		content: "";
+		top: 0; right: 0; bottom: 0; left: 0;
+		background-image: linear-gradient(0deg,
+			rgba(0, 0, 0, 0.25) 0%,
+			rgba(0, 0, 0, 0.50) 50%,
+			rgba(0, 0, 0, 0.25) 100%
+		);
+	}
+
+	> * {
+		position: relative;
+		z-index: 1;
+		color: white;
+		text-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+		max-width: 80%;
+	}
+
+	h1 {
+		text-transform: initial;
+		font-size: 100px;
+	}
+
+	p {
+		margin-top: 1rem;
+		font-family: ltc-bodoni-175, serif;
+		font-size: 30px;
+		font-style: italic;
+		font-weight: 400;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 940px) {
+	.hero {
+		h1 {
+			font-size: 80px;
+		}
+
+		p {
+			font-size: 32px;
+		}
+	}
+}

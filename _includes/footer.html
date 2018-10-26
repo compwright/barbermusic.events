@@ -1,0 +1,13 @@
+<footer class="h-event section-content full-section" itemscope itemtype="http://schema.org/Event" style="text-align: left;">
+  <h2 class="p-name" itemprop="name" style="text-align: center; font-style: italic;">{{ page.title }}</h2>
+  <p class="p-summary" style="text-align: left;">{{ page.description }}</p>
+  <ul>
+  	<li><time class="dt-start" itemprop="startDate" content="{{ page.event_timestamp }}" datetime="{{ page.event_timestamp }}">{{ page.event_date }} at {{ page.event_time }}</time></li>
+  	<li class="p-location">{{ page.event_venue }}, <a href="{{ page.event_venue_directions_url }}" itemprop="address">{{ page.event_venue_address }}</a></li>
+  </ul>
+  <p style="text-align: center;">{{ page.event_admission }}</p>
+</footer>
+
+<p class="bottom">
+  Copyright &copy; 2018 by Barber Music Company. All Rights Reserved. | Site by <a href="http://compwright.com" target="_blank">CompWright Enterprises</a>
+</p>
