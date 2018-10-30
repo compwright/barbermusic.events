@@ -70,14 +70,14 @@ figure {
 	}
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 940px) {
+@media only screen and (max-width: 940px) {
 	h1 {
-		font-size: 40px;
+		font-size: 32px;
 		text-align: center;
 	}
 
 	h2 {
-		font-size: 32px;
+		font-size: 24px;
 		text-align: center;
 	}
 }

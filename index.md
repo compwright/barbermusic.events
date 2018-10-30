@@ -17,6 +17,8 @@ layout: home
 
 <time datetime="2018-12-02 15:00:00" class="featured-time">{{ page.event_date }} at {{ page.event_time }}</time>
 
+<a href="https://www.facebook.com/events/334726317107487/" target="_blank" class="facebook-rsvp">RSVP on Facebook</a>
+
 <iframe class="map" width="100%" height="500" src="https://maps.google.com/maps?q=St.%20John's%20United%20Methodist%20Church&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 {{ page.event_admission }}
